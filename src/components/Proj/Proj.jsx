@@ -86,7 +86,7 @@ const Proj = () => {
                 projectImage={proj7}
                 github={"https://github.com/darsh609/Englishgyaani-iisc.git"}
 
-                projectTitle={"AUDIO-FETCHING DASHBOARD-ENGLISHGYAANI"}
+                projectTitle={"AUDIO-FETCHING DASHBOARD ENGLISHGYAANI"}
                 description={"EnglishGyaani Dashboard: Users fetch and listen to audio clips based on their queries, facilitating targeted word learning to enhance their English language skills."}
                 technologies={"Reactjs,Tailwind,Firebase"}
               />

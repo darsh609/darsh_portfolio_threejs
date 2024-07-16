@@ -21,7 +21,7 @@ const TimeLine = ({ timelines = [] }) => {
               variant="body2"
               color="text.secondary"
             >
-              13/5/24
+              May 2024-July 2024
             </TimelineOppositeContent>
 
             <TimelineSeparator>
@@ -32,8 +32,8 @@ const TimeLine = ({ timelines = [] }) => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Typography variant="h6">SPIRE Lab-IISC Banglore</Typography>
-              <Typography> Web Developer in English-Gyaani project </Typography>
+              <Typography variant="h6">WEB DEVELOPER | SPIRE LAB | IISC(Indian Institute of Science,Banglore)</Typography>
+              <Typography> Build an audio fetching dashboard of English-Gyaani Project using React.js and Firebase   </Typography>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem >
@@ -43,7 +43,7 @@ const TimeLine = ({ timelines = [] }) => {
               variant="body2"
               color="text.secondary"
             >
-              13/7/24
+              Dec 2023-Jan 2024
             </TimelineOppositeContent>
 
             <TimelineSeparator>
@@ -54,8 +54,8 @@ const TimeLine = ({ timelines = [] }) => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Typography variant="h6"></Typography>
-              <Typography></Typography>
+              <Typography variant="h6">WEB DEVELOPER | CODSOFT</Typography>
+              <Typography>Virtual Internship in which I learned about the basic of web development</Typography>
             </TimelineContent>
           </TimelineItem>
   

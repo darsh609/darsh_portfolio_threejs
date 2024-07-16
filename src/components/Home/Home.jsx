@@ -150,7 +150,7 @@ const Home = () => {
       </div>
 
       <div className="homeContainer">
-        <Typography variant="h3">TIMELINE</Typography>
+        <Typography variant="h3">INTERNSHIPS</Typography>
         <TimeLine timelines={[1,2]} />
       </div>
 
