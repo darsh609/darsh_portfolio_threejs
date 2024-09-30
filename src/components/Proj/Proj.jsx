@@ -58,18 +58,18 @@ const Proj = () => {
               <ProjectCard
                 id={"1"}
                 key={"1"}
-                url={"https://dkstudynotion.vercel.app/"}
+                url={"https://darshstudynotion1718.vercel.app/                                                     "}
                 
                 projectImage={proj1}
                 projectTitle={"ED-TECH WEBSITE"}
-                github={"https://github.com/darsh609/Darsh-StudyN.git"}
+                github={"https://github.com/darsh609/StudyNotion-Project-Mern.git"}
                 description={" Revolutionize Learning with Our Ed-Tech Platform: Discover interactive lessons, personalized learning paths, and collaborative tools designed to empower educators and inspire students."}
                 technologies={"Reactjs,Tailwind,Expressjs,MongoDB"}
               />
                <ProjectCard
                 id={"1"}
                 key={"1"}
-                url={"https://project-promptopia-seven-phi.vercel.app/"}
+                url={"https://darsh-promptopia-nextjs-phi.vercel.app/                     "}
                 github={"https://github.com/darsh609/promptopia.git"}
                 projectImage={proj2}
                 projectTitle={"PROMPTOPIA"}
@@ -82,7 +82,7 @@ const Proj = () => {
               <ProjectCard
                 id={"1"}
                 key={"1"}
-                url={"https://englishgyani-recordings-dashboard.web.app/"}
+                url={"https://imprint2024.web.app"}
                 projectImage={proj7}
                 github={"https://github.com/darsh609/Englishgyaani-iisc.git"}
 
