@@ -82,7 +82,7 @@ const Proj = () => {
               <ProjectCard
                 id={"1"}
                 key={"1"}
-                url={"https://imprint2024.web.app"}
+                url={"https://englsihgyaani-audio-fetching.web.app/"}
                 projectImage={proj7}
                 github={"https://github.com/darsh609/Englishgyaani-iisc.git"}
 
