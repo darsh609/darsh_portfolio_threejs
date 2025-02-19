@@ -12,56 +12,90 @@ import Typography from "@mui/material/Typography";
 const TimeLine = ({ timelines = [] }) => {
   return (
     <div>
-      <Timeline position="alternate">
-        
-          <TimelineItem >
-            <TimelineOppositeContent
-              sx={{ m: "auto 0" }}
-              align="right"
-              variant="body2"
-              color="text.secondary"
-            >
-              May 2024-July 2024
-            </TimelineOppositeContent>
+  <Timeline position="alternate">
+    <TimelineItem>
+      <TimelineOppositeContent
+        sx={{ m: "auto 0" }}
+        align="right"
+        variant="body2"
+        color="text.secondary"
+      >
+        Dec 2024 - Present
+      </TimelineOppositeContent>
+      <TimelineSeparator>
+        <TimelineConnector />
+        <TimelineDot>
+          <Event />
+        </TimelineDot>
+        <TimelineConnector />
+      </TimelineSeparator>
+      <TimelineContent sx={{ py: "12px", px: 2 }}>
+        <Typography variant="h6">
+          WEB DEVELOPER | SPRING SPREE (College Cultural Fest Website)
+        </Typography>
+        <Typography>
+          Contributing to the development of the college cultural fest website,
+          focusing on creating an eye-catching scrollable animation using JavaScript,
+          React, and Tailwind CSS, ensuring responsiveness with proper media queries.
+        </Typography>
+      </TimelineContent>
+    </TimelineItem>
 
-            <TimelineSeparator>
-              <TimelineConnector />
-              <TimelineDot>
-                <Event />
-              </TimelineDot>
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Typography variant="h6">WEB DEVELOPER | SPIRE LAB | IISC(Indian Institute of Science,Banglore)</Typography>
-              <Typography> Build an audio fetching dashboard of English-Gyaani Project using React.js and Firebase   </Typography>
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem >
-            <TimelineOppositeContent
-              sx={{ m: "auto 0" }}
-              align="right"
-              variant="body2"
-              color="text.secondary"
-            >
-              Dec 2023-Jan 2024
-            </TimelineOppositeContent>
+    <TimelineItem>
+      <TimelineOppositeContent
+        sx={{ m: "auto 0" }}
+        align="right"
+        variant="body2"
+        color="text.secondary"
+      >
+        May 2024 - July 2024
+      </TimelineOppositeContent>
+      <TimelineSeparator>
+        <TimelineConnector />
+        <TimelineDot>
+          <Event />
+        </TimelineDot>
+        <TimelineConnector />
+      </TimelineSeparator>
+      <TimelineContent sx={{ py: "12px", px: 2 }}>
+        <Typography variant="h6">
+          WEB DEVELOPER | SPIRE LAB | IISC (Indian Institute of Science, Bengaluru)
+        </Typography>
+        <Typography>
+          Developed an audio fetching dashboard for the EnglishGyaani Project using React.js and Firebase,
+          filtering over 1 lakh audios by state, gender, mother tongue, and specific words.
+        </Typography>
+      </TimelineContent>
+    </TimelineItem>
 
-            <TimelineSeparator>
-              <TimelineConnector />
-              <TimelineDot>
-                <Event />
-              </TimelineDot>
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <Typography variant="h6">WEB DEVELOPER | CODSOFT</Typography>
-              <Typography>Virtual Internship in which I learned about the basic of web development</Typography>
-            </TimelineContent>
-          </TimelineItem>
-  
-  
-      </Timeline>
-    </div>
+    <TimelineItem>
+      <TimelineOppositeContent
+        sx={{ m: "auto 0" }}
+        align="right"
+        variant="body2"
+        color="text.secondary"
+      >
+        Dec 2023 - Jan 2024
+      </TimelineOppositeContent>
+      <TimelineSeparator>
+        <TimelineConnector />
+        <TimelineDot>
+          <Event />
+        </TimelineDot>
+        <TimelineConnector />
+      </TimelineSeparator>
+      <TimelineContent sx={{ py: "12px", px: 2 }}>
+        <Typography variant="h6">
+          WEB DEVELOPER | CODSOFT
+        </Typography>
+        <Typography>
+          Virtual Internship where I learned the basics of web development.
+        </Typography>
+      </TimelineContent>
+    </TimelineItem>
+  </Timeline>
+</div>
+
   );
 };
 

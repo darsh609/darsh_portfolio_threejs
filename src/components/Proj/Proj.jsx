@@ -11,6 +11,7 @@ import proj6 from "../../Images/Project6.png"
 import proj4 from "../../Images/Project4.png"
 import proj2 from "../../Images/Project2.png"
 import proj7 from "../../Images/Project7.png"
+import visalta from "../../Images/Visalta.jpg"
 import { BsGithub, BsYoutube, BsInstagram, BsLinkedin, BsMailbox } from "react-icons/bs";
 export const ProjectCard = ({
     url,
@@ -54,6 +55,17 @@ const Proj = () => {
           </Typography>
     
           <div className="projectsWrapper">
+          <ProjectCard
+                id={"1"}
+                key={"1"}
+                url={"https://visalta-final-qg3f.vercel.app/"}
+                
+                projectImage={visalta}
+                projectTitle={"Visalta-NITW"}
+                github={"https://github.com/ashishty23/visalta_final"}
+                description={" Leading a team of four to develop Visalta, platform enhancing student life at NIT Warangal"}
+                technologies={"Reactjs,Tailwind,Expressjs,MongoDB,Nodejs"}
+              />
             
               <ProjectCard
                 id={"1"}
@@ -64,7 +76,7 @@ const Proj = () => {
                 projectTitle={"ED-TECH WEBSITE"}
                 github={"https://github.com/darsh609/StudyNotion-Project-Mern.git"}
                 description={" Revolutionize Learning with Our Ed-Tech Platform: Discover interactive lessons, personalized learning paths, and collaborative tools designed to empower educators and inspire students."}
-                technologies={"Reactjs,Tailwind,Expressjs,MongoDB"}
+                technologies={"Reactjs,Tailwind,Expressjs,MongoDB,Nodejs"}
               />
                <ProjectCard
                 id={"1"}
